@@ -7,8 +7,29 @@ $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
 $btn-border-radius-sm: 0;
 
+$font-size-base: 1rem;
+$font-weight-normal: 200;
+$headings-font-weight: 300;
+
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2;
+
 .btn {
   &.btn-primary {
     color: $font-color;
+    font-weight: 400;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 0.2rem;
+}
+
+p {
+  letter-spacing: 0.05rem;
 }

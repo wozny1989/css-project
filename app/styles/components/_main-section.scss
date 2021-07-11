@@ -1,0 +1,17 @@
+.main-section {
+  padding-top: $m-xxl;
+
+  &__content {
+    padding-left: $m-xxxl;
+    padding-bottom: $m-xxl;
+  }
+
+  &__image {
+    display: flex;
+    align-items: flex-end;
+
+    img {
+      width: 100%;
+    }
+  }
+}

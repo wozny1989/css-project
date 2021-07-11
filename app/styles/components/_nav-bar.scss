@@ -1,7 +1,7 @@
 .nav-bar-container {
   position: relative;
   display: flex;
-  margin: 2 * $m-base 0;
+  margin: $m-xl 0;
   justify-content: space-between;
 }
 
@@ -16,12 +16,12 @@
 .nav-logo {
   position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
-  font-size: $h1-font-size;
+  font-size: $h3-font-size;
   font-family: 'Microgramma';
   z-index: -1;
+  line-height: .9;
 }
 
