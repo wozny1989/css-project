@@ -1,0 +1,27 @@
+.nav-bar-container {
+  position: relative;
+  display: flex;
+  margin: 2 * $m-base 0;
+  justify-content: space-between;
+}
+
+.nav-links {
+  align-items: center;
+
+  .nav-links__item {
+    padding-right: $m-xl;
+  }
+}
+
+.nav-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: $h1-font-size;
+  font-family: 'Microgramma';
+  z-index: -1;
+}
+

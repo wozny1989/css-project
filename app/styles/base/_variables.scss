@@ -1,0 +1,17 @@
+$bg-color: #575757;
+$font-color: #FDFDFD;
+$brand-primary: #EF8031;
+
+$m-base: 24px;
+
+$m-xs: $m-base / 3;
+$m-sm: $m-base / 2;
+$m-lg: $m-base * 1.5;
+$m-xl: $m-base * 2;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1400px
+) !default;

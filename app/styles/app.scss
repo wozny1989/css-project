@@ -1,7 +1,8 @@
-@import "ember-cli-bootstrap-4/bootstrap";
-
+@import "./base/fonts";
 @import "./base/variables";
-@import "./base/main";
+@import "./base/customize";
+
+@import "ember-cli-bootstrap-4/bootstrap";
 
 @import "./components/nav-bar";
 @import "./components/tile";
