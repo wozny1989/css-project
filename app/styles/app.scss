@@ -4,6 +4,7 @@
 
 @import "ember-cli-bootstrap-4/bootstrap";
 
+@import "./base/main";
 @import "./base/utils";
 @import "./components/nav-bar";
 @import "./components/main-section";
