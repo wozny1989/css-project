@@ -45,7 +45,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+NETLIFY LINK: [https://frosty-lovelace-bdce83.netlify.app/](https://frosty-lovelace-bdce83.netlify.app/)
 
 ## Further Reading / Useful Links
 
