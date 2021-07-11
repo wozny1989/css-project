@@ -2,12 +2,27 @@
   padding-top: $m-xxl;
 
   &__content {
-    padding-left: $m-xxxl;
     padding-bottom: $m-xxl;
   }
 
   &__image {
     display: flex;
     align-items: flex-end;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .main-section {
+    &__content {
+      padding-left: $m-xl;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .main-section {
+    &__content {
+      padding-left: $m-xxxl;
+    }
   }
 }

@@ -1,10 +1,6 @@
 .tiles-section {
   padding-top: $m-xxl;
 
-  &__item {
-    max-width: 420px;
-  }
-
   .item__link {
     display: flex;
     flex-wrap: nowrap;
@@ -18,5 +14,13 @@
     font-size: 1.75rem;
     font-weight: 500;
     padding-left: $m-base;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .tiles-section {
+    &__item {
+      max-width: 420px;
+    }
   }
 }
