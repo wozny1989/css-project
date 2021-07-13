@@ -1,7 +1,6 @@
 # css-project
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Based on mockup: [https://dribbble.com/shots/16002818-Electric-Car-Website-Design](https://dribbble.com/shots/16002818-Electric-Car-Website-Design)
 
 ## Prerequisites
 
