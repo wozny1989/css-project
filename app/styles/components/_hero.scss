@@ -1,5 +1,5 @@
-.main-section {
-  padding-top: $m-xxl;
+.hero {
+  padding-top: $m-xl;
 
   &__content {
     padding-bottom: $m-xxl;
@@ -12,7 +12,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .main-section {
+  .hero {
     &__content {
       padding-left: $m-xl;
     }
@@ -20,7 +20,7 @@
 }
 
 @include media-breakpoint-up(xl) {
-  .main-section {
+  .hero {
     &__content {
       padding-left: $m-xxxl;
     }

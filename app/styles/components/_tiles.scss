@@ -1,25 +1,35 @@
-.tiles-section {
+.tiles {
   padding-top: $m-xxl;
 
-  .item__link {
-    display: flex;
-    flex-wrap: nowrap;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    text-transform: capitalize;
-    text-decoration: none;
-  }
+  .tile {
+    margin-bottom: $m-xl;
 
-  .item__arrow {
-    font-size: 1.75rem;
-    font-weight: 500;
-    padding-left: $m-base;
+    &:hover {
+      text-decoration: none !important;
+    }
+
+    .tile__link {
+      display: flex;
+      flex-wrap: nowrap;
+      font-weight: 300;
+      letter-spacing: 0.1rem;
+      text-transform: capitalize;
+      margin-top: $m-xs;
+
+      &:after {
+        content: "↗";
+        font-size: 1.75rem;
+        font-weight: 500;
+        padding-left: $m-base;
+        margin-left: auto;
+      }
+    }
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .tiles-section {
-    &__item {
+  .tiles {
+    .item {
       max-width: 420px;
     }
   }
